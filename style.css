@@ -50,14 +50,28 @@ p {
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
 }
+
 .btn-1 {
     background-color: black;
     color: white;
     border: none;
 }
+
 .btn-1:hover {
     background-color: white;
     color: #000;
 }
+.btn-2{
+
+}
+.btn-3 {
+    background: yellow;
+    background: linear-gradient(0deg,rgb(231, 243, 10)  0%, rgb(220, 41, 9) 100%);
+    border: none;
+  }
+  .btn-3:hover {
+     background: rgb(255, 0, 0);
+     background: linear-gradient(0deg, rgba(220, 41, 9) 0%, rgb(231, 243, 10) 100%);
+  }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
