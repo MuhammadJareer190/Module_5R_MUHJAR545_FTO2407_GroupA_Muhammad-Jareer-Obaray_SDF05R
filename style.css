@@ -61,9 +61,24 @@ p {
     background-color: white;
     color: #000;
 }
-.btn-2{
 
-}
+.btn-2 {
+    background: rgb(9, 240, 51);
+    background: linear-gradient(0deg, rgb(28, 148, 4) 0%, rgb(5, 240, 29) 100%);
+    border: none;
+    
+  }
+  .btn-2:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-2:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+
 .btn-3 {
     background: yellow;
     background: linear-gradient(0deg,rgb(231, 243, 10)  0%, rgb(220, 41, 9) 100%);
